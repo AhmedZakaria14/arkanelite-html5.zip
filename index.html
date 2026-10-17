@@ -29,7 +29,7 @@
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
     <meta name="msapplication-config" content="/browserconfig.xml">
 
-    <link rel="canonical" href="https://arkanelite.com/" />
+    <link rel="canonical" href="https://arkaneliteevents.com/" />
     
     <title>ARKAN ELITE - خيام أوروبية فاخرة للمعارض والمؤتمرات</title>
     <meta name="description" content="ARKAN ELITE توفر خيام أوروبية فاخرة وحديثة للمعارض والمؤتمرات والفعاليات مع أفضل التجهيزات والخدمات المتميزة. اتصل بنا على 0592156307" />
@@ -37,14 +37,14 @@
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://arkanelite.com/" />
+    <meta property="og:url" content="https://arkaneliteevents.com/" />
     <meta property="og:title" content="ARKAN ELITE - خيام أوروبية فاخرة للمعارض والمؤتمرات" />
     <meta property="og:description" content="ARKAN ELITE توفر خيام أوروبية فاخرة وحديثة للمعارض والمؤتمرات والفعاليات مع أفضل التجهيزات والخدمات المتميزة" />
     <meta property="og:image" content="https://horizons-cdn.hostinger.com/2ce93da0-3b6c-4792-9677-b149a5c0dc5f/07ad20ddd2e771f48bd8de8e2020cb8a.jpg" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://arkanelite.com/" />
+    <meta property="twitter:url" content="https://arkaneliteevents.com/" />
     <meta property="twitter:title" content="ARKAN ELITE - خيام أوروبية فاخرة للمعارض والمؤتمرات" />
     <meta property="twitter:description" content="ARKAN ELITE توفر خيام أوروبية فاخرة وحديثة للمعارض والمؤتمرات والفعاليات مع أفضل التجهيزات والخدمات المتميزة" />
     <meta property="twitter:image" content="https://horizons-cdn.hostinger.com/2ce93da0-3b6c-4792-9677-b149a5c0dc5f/07ad20ddd2e771f48bd8de8e2020cb8a.jpg" />
@@ -273,7 +273,7 @@ if (window.navigation && window.self !== window.top) {
 							link.setAttribute('aria-label','زيارة موقع NasharHub.com');
 							if(!link.querySelector('.nashar-text')){link.innerHTML='<span class="nashar-text">NasharHub.com</span>';}
 							var parent=link.parentElement;
-							if(parent){parent.classList.add('nashar-credit-wrap');Array.from(parent.children).forEach(function(el){if(el!==link&&/بواسطة|created by/i.test(el.textContent||'')){el.textContent='تم التصميم والتطوير بواسطة';el.classList.add('nashar-credit-label');}});}
+							if(parent){parent.classList.add('nashar-credit-wrap');Array.from(parent.children).forEach(function(el){if(el!==link&&/بواسطة|created by/i.test(el.textContent||'')){if(el.textContent!=='تم التصميم والتطوير بواسطة'){el.textContent='تم التصميم والتطوير بواسطة';}el.classList.add('nashar-credit-label');}});}
 						});
 					}else if(!footer.querySelector('.nashar-credit-wrap')){
 						var wrap=document.createElement('div');wrap.className='nashar-credit-wrap';wrap.innerHTML='<span class="nashar-credit-label">تم التصميم والتطوير بواسطة</span><a class="nashar-credit-link" href="https://nasharhub.com/" target="_blank" rel="noopener noreferrer" aria-label="زيارة موقع NasharHub.com"><span class="nashar-text">NasharHub.com</span></a>';
